@@ -15,6 +15,8 @@
 
     {% block corecss %}
        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+       <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
     {% block extra_css %}
@@ -24,6 +26,7 @@
        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+       <script src="https://kit.fontawesome.com/98e8441373.js" crossorigin="anonymous"></script>
     {% endblock %}
 
     {% block extra_js %}
@@ -35,23 +38,70 @@
 <body>
 
    <header class="container-fluid fixed-top">
-       <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+       <div class="row">
+         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
            <a href="{% url 'home' %}" class="nav-link main-logo-link">
                <h2 class="logo-font text-black my-0"><strong>Dandu Stores</strong></h2> 
            </a>
-       </div>
+         </div>
        <div class="col-12 col-lg-4 my-auto py-lg-0">
            <form method="GET" action="">
                <div class="input-group w-100">
-                   <input type="text" name="q" class="form-control border border-black rounded-0">
+                   <input type="text" name="q" class="form-control border border-black rounded-0" placeholder="Search Products Here">
+                   <div class="input-group-append">
+                       <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                           <span class="icon">
+                               <i class="fas fa-search"> </i>
+                           </span>
+                       </button>
+                   </div>
                </div>
            </form>
        </div>
-       <div class="col-12 col-lg-4 my-auto py-lg-0"></div>
+       <div class="col-12 col-lg-4 my-auto py-lg-0"> 
+          <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+              <li class="list-inline-item dropdown">
+                  <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <div class="text-center">
+                          <div><i class="fas fa-user fa-lg"></i></div>
+                          <p class="my-0">Log-In</p>
+                      </div>
+                  </a>
+                  <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                      {% if request.user.is_authenticated %}
+                         {% if request.user.is_superuser %}
+                            <a href="" class="dropdown-item">Manage Products</a>
+                         {% endif %}   
+                         <a href="" class="dropdown-item">My Profile</a>
+                         <a href="{% url 'account_logout' %}" class="dropdown">Logout</a>
+                      {% else %}
+                         <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                         <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                      {% endif %}   
+
+                  </div>
+              </li>
+              <li class="list-inline-item">
+                  <a class="{%if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+                     <div class="text-center"> 
+                      <div><i class="fas fa-shopping-basket fa-lg"></i></div>
+                      <p class="my-0">
+                          {% if grand_total %}
+                             ${{ grand_total|floatformat:2 }}
+                          {% else %}
+                               $0.00
+                          {% endif %}
+                      </p>
+                    </div>
+                  </a>
+              </li>
+          </ul>
+        </div>
+      </div>
    </header>
 
    {% if messages %}
-   <div class="message-container"></div>
+        <div class="message-container"></div>
    {% endif %}    
 
    {% block page_header %}
