@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    background: url('/media/heroimage.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 150px);
+    background: url('/media/baseheroimage.jpg') no-repeat center center fixed;
+     background-size: 100%;
+  height: calc(100vh -164px);
     color: #555;
     font-family: 'Lato';
 }
@@ -81,6 +81,6 @@ body {
     }
 
     .header-container {
-        padding-top: 70px;
+        padding-top: 164px;
     }
 }
