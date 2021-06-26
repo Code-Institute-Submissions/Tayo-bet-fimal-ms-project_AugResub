@@ -5,10 +5,11 @@ html {
 body {
     background: url('/media/heroimage.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(100vh - 150px);
     color: #555;
     font-family: 'Lato';
 }
+
 
 /* from Bulma */
 .icon {
@@ -56,7 +57,11 @@ body {
     border: 1px solid black !important;
 }
 
-/* -------------------------------- Media Queries */
+.bg-black {
+    background: #000 !important;
+}
+
+/* --------------------------------- Media queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
@@ -76,6 +81,6 @@ body {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 70px;
     }
 }
