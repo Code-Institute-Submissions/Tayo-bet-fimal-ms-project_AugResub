@@ -2,11 +2,7 @@ from django.db import models
 
 
 # Create your models here.
-class category(models.Model):
-
-    class Meta:
-        verbose_name_plural = 'Categories'
-    
+class Category(models.Model):
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
@@ -17,12 +13,12 @@ class category(models.Model):
         return self.friendly_name
 
 
-class Products(models.Model):
-    category = models.CharField(max_length=254, null=True, blank=True)
+class Product(models.Model):
+    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     id = models.CharField(max_length=254, blank=True, primary_key=True)
     name = models.CharField(max_length=254)
     country = models.CharField(max_length=254)
-    weight = models.CharField(max_length=254, null=True, blank=True)
+    weight = models.CharField(max_length=254, blank=True)
     descriptions = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
     imageURLs = models.URLField(max_length=1024, null=True, blank=True)
@@ -31,4 +27,3 @@ class Products(models.Model):
 
     def __str__(self):
         return self.name   
-        
