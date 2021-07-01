@@ -1,0 +1,29 @@
+[{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "groceries",
+        "friendly_name": "Groceries"
+    }
+}, {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "Soap & Lotions",
+        "friendly_name": "Soap & Lotions"
+    }
+}, {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "offers v2",
+        "friendly_name": "Special Offers"
+    }
+}, {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "new arrivals",
+        "friendly_name": "New Arrivals"
+    }
+}]

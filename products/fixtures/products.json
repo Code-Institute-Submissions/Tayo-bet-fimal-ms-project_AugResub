@@ -1,0 +1,115 @@
+[{
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "country": "Italy",
+            "id": "orange",
+            "imageURLs": " https://upload.wikimedia.org/wikipedia/commons/0/00/164_-_oranges.jpg ",
+            "name": "Orange",
+            "weight": "8kg/sachet",
+            "price": 4.75,
+            "descriptions": "Class A juicy oranges from Sicily-Italy, very ideal for making juices because of the high water content and sweet taste. Very good for making Jams and to be used in Pastries"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "country": "Italy",
+            "id": "apple-royal",
+            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Apfel_gala.JPG",
+            "name": "Apple Royal Gala",
+            "weight": "05kg/box",
+            "price": 6.00,
+            "descriptions": "Class A Apple Royal Gala from Sicily-Italy, 100% ecological and natural taste. Can be used for jam and all kind of food consumption."
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "country": "Morocco",
+            "id": "seedless-water-melon",
+            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/4/40/Watermelons.jpg",
+            "name": "Seedless Water Melon",
+            "weight": "02kg/piece",
+            "price": 3.50,
+            "descriptions": "Class A seedless Water Melon, grow completely ecologically with origin nation as Morocco."
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "country": "Spain",
+            "id": "carrot",
+            "imageURLs": " https://upload.wikimedia.org/wikipedia/commons/7/79/Fresh_Carrots.jpg ",
+            "name": "Carrots",
+            "weight": "05kg/sachet",
+            "price": 2.00,
+            "descriptions": "Ecological class A carrots from Spain, ideal for food e.g salads, jams and pastries."
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "country": "Spain",
+            "id": "spinach",
+            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/3/36/Spinach_produce-1.jpg",
+            "name": "Spinach",
+            "weight": "05kg/sachet",
+            "price": 8.00,
+            "descriptions": "Ecological class A spinach from Spain, green and lush, ideal for all soaps, sauce, smoothies and salads."
+
+        }
+    }, {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "country": "Spain",
+            "id": "onion2",
+            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cebolla.jpg",
+            "name": "Onions",
+            "weight": "5kg/bag",
+            "price": 9.00,
+            "descriptions": "Ecological class A Yellow Onions from Spain,perfect with natural taste for all kind of cooking."
+        }
+    }, {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "country": "Spain",
+            "id": "onion",
+            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cebolla.jpg",
+            "name": "Onions",
+            "weight": "5kg/bag",
+            "price": 9.00,
+            "descriptions": "Ecological class A Yellow Onions from Spain,perfect with natural taste for all kind of cooking."
+        }
+    }, {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "country": "Italy",
+            "id": "cabbage",
+            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/8/88/Cabbage_in_a_stack.jpg",
+            "name": "Cabbage",
+            "weight": "8kg/bag",
+            "price": 5.00,
+            "descriptions": "Green and lush class A cabbage from Italy, Ideal for all salads."
+        }
+    }, {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "country": "USA",
+            "id": "rice",
+            "imageURLs": "",
+            "name": "Rice",
+            "weight": "0.5/piece",
+            "price": 5.00,
+            "descriptions": "Ready to cook balsmatic rice from Uncle Ben’s, an house food company since 1940’s know for top quality foods."
+        }
+    }
+]
