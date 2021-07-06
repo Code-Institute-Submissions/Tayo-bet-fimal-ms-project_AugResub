@@ -5,10 +5,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">New Arrivals</a>
-                <a href="" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=price" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?category=new arrival" class="dropdown-item ">New Arrivals</a>
+                <a href="{% url 'products' %}?category=offers" class="dropdown-item ">Special Deals</a>
             </div>
         </li>
 
@@ -17,10 +16,10 @@
                 Groceries
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="Groceries">
-                <a href="" class="dropdown-item">General Food &amp; Essentials</a>
-                <a href="" class="dropdown-item">Fruits</a>
-                <a href="" class="dropdown-item">Vegetables</a>
-                <a href="" class="dropdown-item">Grains &amp; staples</a>
+                <a href="{% url 'products' %}?category=General Food,Essentials" class="dropdown-item">General Food &amp; Essentials</a>
+                <a href="{% url 'products' %}?category=Fruits" class="dropdown-item">Fruits</a>
+                <a href="{% url 'products' %}?category=Vegetables" class="dropdown-item">Vegetables</a>
+                <a href="{% url 'products' %}?category=Grains,Staples" class="dropdown-item">Grains &amp; staples</a>
                 {% if request.user.is_authenticated %}
                    <a href="" class="dropdown-item">Delivery Service</a>
                 {% endif %}   
@@ -32,9 +31,9 @@
                 Soaps &amp; Lotions
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="Soaps & Detergents">
-                <a href="" class="dropdown-item">Bathing Lotions </a>
-                <a href="" class="dropdown-item">Cleaning &amp; Disinfectants</a>
-                <a href="" class="dropdown-item">special Detergents</a>
+                <a href="{% url 'products' %}?category=Bathing Lotions" class="dropdown-item">Bathing Lotions </a>
+                <a href="{% url 'products' %}?category=Cleaning,Disinfectants" class="dropdown-item">Cleaning &amp; Disinfectants</a>
+                <a href="{% url 'products' %}?category=Special Detergents" class="dropdown-item">Special Detergents</a>
             </div>
         </li>
 
@@ -42,9 +41,8 @@
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Weekend Offers</a>
-                <a href="" class="dropdown-item">Special Deals</a>
+            <div class="dropdown-menu border-0" aria-labelledby="specials-link">            
+                <a href="{% url 'products' %}?category=Special Offers" class="dropdown-item">Special Deals</a>
             </div>
         </li>
     </ul>
