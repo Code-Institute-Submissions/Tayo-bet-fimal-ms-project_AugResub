@@ -1,115 +1,470 @@
-[{
-        "pk": 1,
-        "model": "products.product",
-        "fields": {
-            "country": "Italy",
-            "id": "orange",
-            "imageURLs": " https://upload.wikimedia.org/wikipedia/commons/0/00/164_-_oranges.jpg ",
-            "name": "Orange",
-            "weight": "5kg",
-            "price": 4.75,
-            "descriptions": "Class A juicy oranges from Sicily-Italy, very ideal for making juices because of the high water content and sweet taste. Very good for making Jams and to be used in Pastries"
-        }
+[
+    {
+       "pk": 1,
+       "model": "products.products",
+       "fields": {
+          "categories": "groceries",
+          "id": "BVpfWWFJLJepML437mXk",
+          "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/2319298400002.jpg",
+          "country": "Sweden",
+          "name": "Banana",
+          "price": "1.70/kg",
+          "descriptions": "Smart snack that gets sweeter the more mature it is. Otherwise, the banana is also good to cook, for example fried in butter, syrup and cardamom with ice cream. The bananas can vary in color from completely green to completely yellow.Each bunch is about 5-7 bananas"
+       }
     },
     {
         "pk": 2,
-        "model": "products.product",
+        "model": "products.products",
         "fields": {
-            "country": "Italy",
-            "id": "apple-royal",
-            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Apfel_gala.JPG",
-            "name": "Apple Royal Gala",
-            "weight": "5kg",
-            "price": 6.00,
-            "descriptions": "Class A Apple Royal Gala from Sicily-Italy, 100% ecological and natural taste. Can be used for jam and all kind of food consumption."
+           "categories": "groceries",
+           "id": "AVpfWWFJLJeJML437mXJ",
+           "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/2092321400001.jpg",
+           "country": "Italy",
+           "name": "Apple Royal Gala",
+           "price": "1.90/kg",
+           "descriptions": "One of the most popular apples, with a sweet and fresh taste that is easily reminiscent of melon. Crispy and firm. Good in everything from salad to cakes and hot food"
         }
-    },
-    {
+     },
+     {
         "pk": 3,
-        "model": "products.product",
+        "model": "products.products",
         "fields": {
-            "country": "Morocco",
-            "id": "seedless-water-melon",
-            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/4/40/Watermelons.jpg",
-            "name": "Seedless Water Melon",
-            "weight": "2kg",
-            "price": 3.50,
-            "descriptions": "Class A seedless Water Melon, grow completely ecologically with origin nation as Morocco."
+           "categories": "groceries",
+           "id": "BNpfWWFJLJepML438mXk",
+           "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/2319100900003.jpg",
+           "country": "Sweden",
+           "name": "Sliced Pork With Bones 1kg",
+           "price": "3.70/kg",
+           "descriptions": "A piece detail from Swedish pigs that is suitable for both frying pan and grill and that feels good to be cooked on low heat for a longer period of time. You can also beat the meat a little to get the extra roach."
         }
-    },
-    {
-        "pk": 4,
-        "model": "products.product",
+     },
+     {
+         "pk": 4,
+         "model": "products.products",
+         "fields": {
+            "categories": "groceries",
+            "id": "AVpfWWFBGJeJML437mXJ",
+            "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690042044.jpg",
+            "country": "Sweden",
+            "name": "Blended Meat 1kg",
+            "price": "2.90/kg",
+            "descriptions": "Beef mince 5% is a slightly leaner mince that suits you who want to keep the fat down. Works well with a minced meat sauce or maybe a cheat-chili-con-carne? Fry together with onion and garlic, in with a little crushed tomatoes, a lot of heat and then beans at the end. Serve some more nachos or bread and sour cream."
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
         "fields": {
-            "country": "Spain",
-            "id": "carrot",
-            "imageURLs": " https://upload.wikimedia.org/wikipedia/commons/7/79/Fresh_Carrots.jpg ",
-            "name": "Carrots",
-            "weight": "5kg",
-            "price": 2.00,
-            "descriptions": "Ecological class A carrots from Spain, ideal for food e.g salads, jams and pastries."
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
         }
-    },
-    {
-        "pk": 5,
-        "model": "products.product",
-        "fields": {
-            "country": "Spain",
-            "id": "spinach",
-            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/3/36/Spinach_produce-1.jpg",
-            "name": "Spinach",
-            "weight": "05kg",
-            "price": 8.00,
-            "descriptions": "Ecological class A spinach from Spain, green and lush, ideal for all soaps, sauce, smoothies and salads."
-
-        }
-    }, {
-        "pk": 6,
-        "model": "products.product",
-        "fields": {
-            "country": "Spain",
-            "id": "onion2",
-            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cebolla.jpg",
-            "name": "Onions",
-            "weight": "5kg",
-            "price": 9.00,
-            "descriptions": "Ecological class A Yellow Onions from Spain,perfect with natural taste for all kind of cooking."
-        }
-    }, {
-        "pk": 7,
-        "model": "products.product",
-        "fields": {
-            "country": "Spain",
-            "id": "onion",
-            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cebolla.jpg",
-            "name": "Onions",
-            "weight": "5kg",
-            "price": 9.00,
-            "descriptions": "Ecological class A Yellow Onions from Spain,perfect with natural taste for all kind of cooking."
-        }
-    }, {
-        "pk": 8,
-        "model": "products.product",
-        "fields": {
-            "country": "Italy",
-            "id": "cabbage",
-            "imageURLs": "https://upload.wikimedia.org/wikipedia/commons/8/88/Cabbage_in_a_stack.jpg",
-            "name": "Cabbage",
-            "weight": "8kg",
-            "price": 5.00,
-            "descriptions": "Green and lush class A cabbage from Italy, Ideal for all salads."
-        }
-    }, {
-        "pk": 9,
-        "model": "products.product",
-        "fields": {
-            "country": "USA",
-            "id": "rice",
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
             "imageURLs": "",
-            "name": "Rice",
-            "weight": "0.5kg",
-            "price": 5.00,
-            "descriptions": "Ready to cook balsmatic rice from Uncle Ben’s, an house food company since 1940’s know for top quality foods."
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
         }
-    }
-]
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      },
+      {
+        "pk": ,
+        "model": "products.products",
+        "fields": {
+           "categories": "",
+           "id": "BVpfWWFJLJepML437mXk",
+           "imageURLs": "",
+           "country": "",
+           "name": "",
+           "price": "",
+           "descriptions": ""
+        }
+     },
+     {
+         "pk": ,
+         "model": "products.products",
+         "fields": {
+            "categories": "",
+            "id": "AVpfWWFJLJeJML437mXJ",
+            "imageURLs": "",
+            "country": "Italy",
+            "name": "",
+            "price": "",
+            "descriptions": ""
+         }
+      }     
+]   
