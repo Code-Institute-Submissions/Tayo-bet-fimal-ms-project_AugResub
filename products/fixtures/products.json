@@ -1,470 +1,456 @@
-[
-    {
-       "pk": 1,
-       "model": "products.products",
-       "fields": {
-          "categories": "groceries",
-          "id": "BVpfWWFJLJepML437mXk",
-          "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/2319298400002.jpg",
-          "country": "Sweden",
-          "name": "Banana",
-          "price": "1.70/kg",
-          "descriptions": "Smart snack that gets sweeter the more mature it is. Otherwise, the banana is also good to cook, for example fried in butter, syrup and cardamom with ice cream. The bananas can vary in color from completely green to completely yellow.Each bunch is about 5-7 bananas"
-       }
-    },
-    {
-        "pk": 2,
-        "model": "products.products",
-        "fields": {
-           "categories": "groceries",
-           "id": "AVpfWWFJLJeJML437mXJ",
-           "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/2092321400001.jpg",
-           "country": "Italy",
-           "name": "Apple Royal Gala",
-           "price": "1.90/kg",
-           "descriptions": "One of the most popular apples, with a sweet and fresh taste that is easily reminiscent of melon. Crispy and firm. Good in everything from salad to cakes and hot food"
-        }
-     },
-     {
-        "pk": 3,
-        "model": "products.products",
-        "fields": {
-           "categories": "groceries",
-           "id": "BNpfWWFJLJepML438mXk",
-           "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/2319100900003.jpg",
-           "country": "Sweden",
-           "name": "Sliced Pork With Bones 1kg",
-           "price": "3.70/kg",
-           "descriptions": "A piece detail from Swedish pigs that is suitable for both frying pan and grill and that feels good to be cooked on low heat for a longer period of time. You can also beat the meat a little to get the extra roach."
-        }
-     },
-     {
-         "pk": 4,
-         "model": "products.products",
-         "fields": {
-            "categories": "groceries",
-            "id": "AVpfWWFBGJeJML437mXJ",
-            "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690042044.jpg",
-            "country": "Sweden",
-            "name": "Blended Meat 1kg",
-            "price": "2.90/kg",
-            "descriptions": "Beef mince 5% is a slightly leaner mince that suits you who want to keep the fat down. Works well with a minced meat sauce or maybe a cheat-chili-con-carne? Fry together with onion and garlic, in with a little crushed tomatoes, a lot of heat and then beans at the end. Serve some more nachos or bread and sour cream."
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      },
-      {
-        "pk": ,
-        "model": "products.products",
-        "fields": {
-           "categories": "",
-           "id": "BVpfWWFJLJepML437mXk",
-           "imageURLs": "",
-           "country": "",
-           "name": "",
-           "price": "",
-           "descriptions": ""
-        }
-     },
-     {
-         "pk": ,
-         "model": "products.products",
-         "fields": {
-            "categories": "",
-            "id": "AVpfWWFJLJeJML437mXJ",
-            "imageURLs": "",
-            "country": "Italy",
-            "name": "",
-            "price": "",
-            "descriptions": ""
-         }
-      }     
-]   
+[{
+   "pk": 1,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "BVpfWWFJLJepML437mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/2319298400002.jpg",
+      "country": "Sweden",
+      "name": "Banana",
+      "price": 1.7,
+      "descriptions": "Smart snack that gets sweeter the more mature it is. Otherwise, the banana is also good to cook, for example fried in butter, syrup and cardamom with ice cream. The bananas can vary in color from completely green to completely yellow.Each bunch is about 5-7 bananas"
+   }
+},
+{
+   "pk": 2,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "AVpfWWFJLJeJML437mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/2092321400001.jpg",
+      "country": "Italy",
+      "name": "Apple Royal Gala",
+      "price": 1.9,
+      "descriptions": "One of the most popular apples, with a sweet and fresh taste that is easily reminiscent of melon. Crispy and firm. Good in everything from salad to cakes and hot food"
+   }
+},
+{
+   "pk": 3,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "BNpfWWFJLJepML438mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/2319100900003.jpg",
+      "country": "Sweden",
+      "name": "Sliced Pork With Bones 1kg",
+      "price": 3.7,
+      "descriptions": "A piece detail from Swedish pigs that is suitable for both frying pan and grill and that feels good to be cooked on low heat for a longer period of time. You can also beat the meat a little to get the extra roach."
+   }
+},
+{
+   "pk": 4,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "AVpfWWFBGJeJML437mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690042044.jpg",
+      "country": "Sweden",
+      "name": "Blended Meat 1kg",
+      "price": 2.90,
+      "descriptions": "Beef mince 5% is a slightly leaner mince that suits you who want to keep the fat down. Works well with a minced meat sauce or maybe a cheat-chili-con-carne? Fry together with onion and garlic, in with a little crushed tomatoes, a lot of heat and then beans at the end. Serve some more nachos or bread and sour cream."
+   }
+},
+{
+   "pk": 5,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "KYpfWWFJLJepML937mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690166184.jpg",
+      "country": "Sweden",
+      "name": "Grilled sausage Chicken 400g",
+      "price": 1.7,
+      "descriptions": "Machine-boned chicken meat * 59%, water, potato starch, chicken fat *, salt, dextrose, onion powder, spices (ginger, white pepper), spice extract (black pepper, coriander), antioxidant (E300), preservative (E250), smoke flavor. Born, bred and slaughtered in Sweden. The sausage is skinless."
+   }
+},
+{
+   "pk": 6,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "XFpfWWFJLJeJPL217mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7300201432000.jpg",
+      "country": "Sweden",
+      "name": "Grill sausage Bacon & cheese 480g Scan",
+      "price": 1.7,
+      "descriptions": "Grilled sausage containing bacon and cheese. Suitable for grill and frying pan. Make a pasta salad with grilled sausage and fried bacon, parmesan and vegetables"
+   }
+},
+{
+   "pk": 7,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "BNpfWWQJLJepML477mPk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7330797088855.jpg",
+      "country": "UK",
+      "name": "Cognacswurst Smoked 200g Pärsons",
+      "price": 1,
+      "descriptions": "Cognacswurst with a mild, smoky taste in thin slices. Suitable for breakfast, snacks and evening meals with a piece of pepper and a sprig of parsley."
+   }
+},
+{
+   "pk": 8,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "AVpfWMHYLJeJML437mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690081388.jpg",
+      "country": "Sweden",
+      "name": "Cognac sausage 400g ICA Basic",
+      "price": 0.8,
+      "descriptions": "A sliced cognac smedwurst that is suitable as a spread on the breakfast sandwich or the excursion bread. Feel free to add some green accessories to the sandwich."
+   }
+},
+{
+   "pk": 9,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "TVpfIWFJLJepML907mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690130079.jpg",
+      "country": "Spain",
+      "name": "Oranges 1kg Class 1 ICA",
+      "price": 0.90,
+      "descriptions": "Sweet class 1 Oranges from Spain, passes for direct consumption or other usages such as juices or jams."
+   }
+},
+{
+   "pk": 10,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "AVpfWWFJLJeGNB937mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/2092321000003.jpg",
+      "country": "Italy",
+      "name": "Apple Granny Smith ICA about 190g",
+      "price": 0.2,
+      "descriptions": "Bright green apple with crispy and firm flesh and fresh and sour taste. The pulp stays fresh for a long time and is suitable as a raw food, for example."
+   }
+},
+{
+   "pk": 11,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "UJpfWWFJLJepML4387mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690165064.jpg",
+      "country": "Sweden",
+      "name": "Mixed Fruit Bag ICA 3kg",
+      "price": 5,
+      "descriptions": "The fruit bag contains a mixture according to the season. May contain the following fruits: Banana, Apple Royal Gala, Pear Conference, Orange, Clementine, Kiwi and Green Grapes."
+   }
+},
+{
+   "pk": 12,
+   "model": "products.product",
+   "fields": {
+      "category": "new arrivals",
+      "id": "NApfWWFJLJeJML007mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7330671124525.jpg",
+      "country": "Chile",
+      "name": "Avocado 2-p 320g Class 1 ICA",
+      "price": 0.8,
+      "descriptions": "Perfectly ripe avocado with soft flesh and a slightly nutty taste. Plenty of prawns, in guacamole and in fruity mango salsa, for example. Perfectly ripe avocado with soft flesh and a slightly nutty taste. Plenty of shrimp, in guacamole and in fruity mango salsa, for example."
+   }
+},
+{
+   "pk": 13,
+   "model": "products.product",
+   "fields": {
+      "category": "new arrivals",
+      "id": "NApfWYFJLJepML435mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/8714100079249.jpg",
+      "country": "USA",
+      "name": "Glass Strawberry Vegan 750ml Lactose Free Choice",
+      "price": 2,
+      "descriptions": "Healthy Vegan ice cream with the following ingridentsWater, sugar, strawberries (11%), glucose syrup, glucose-fructose syrup, coconut oil, dextrose, SOY POWDER (1.5%), stabilizers (fruit kernel flour, guar kernel flour, carrageenan, pectin), emulsifiers (mono- and diglycerides of vegetable) aroma, salt, dye (beetroot), acidity regulator (citric acid)."
+   }
+},
+{
+   "pk": 14,
+   "model": "products.product",
+   "fields": {
+      "category": "new arrivals",
+      "id": "NApfTTFJLJeJML437mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7312690207533.jpg",
+      "country": "Italy",
+      "name": "Ice Dream Vegan Coconut passion 500ml Sia",
+      "price": 1.5,
+      "descriptions": "Ice cream made from coconut cream with a taste of roasted coconut, passion fruit jam and coconut flakes. SIA Ice Cream is a family business with a heart in Slöinge in Halland. It is with love for the craft and concern for nature that we make all our vegan ice cream in Sweden. Always completely milk, soy and lactose free."
+   }
+},
+{
+   "pk": 15,
+   "model": "products.product",
+   "fields": {
+      "category": "new arrivals",
+      "id": "NApfWWFJLJfrML097mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7310380458388.jpg",
+      "country": "Sweden",
+      "name": "All-cleaning sponge 10-p ICA Basic",
+      "price": 0.5,
+      "descriptions": "Cleaning sponge in mixed colors with a slightly coarser surface on one side to be able to scrub where needed. Color: Mixed Package size: 10 -pack"
+   }
+},
+{
+   "pk": 16,
+   "model": "products.product",
+   "fields": {
+      "category": "new arrivals",
+      "id": "NApfWWFTHGeJML437mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7391704800144.jpg",
+      "country": "Sweden",
+      "name": "Household cloth Wettex Classic 4-p Vileda",
+      "price": 1.25,
+      "descriptions": "Wettex is 100% biodegradable and compostable. Made of: Cellulose and cotton Water-based paints Chlorine-free manufacture The product is sold in mixed colors, color can not be chosen when buying"
+   }
+},
+{
+   "pk": 17,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLpfWWFJLJepML437mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/8720181127762.jpg",
+      "country": "USA",
+      "name": "Detergent Liquid Color 760ml Via",
+      "price": 2.7,
+      "descriptions": "Via Color liquid detergent has a new, fresh scent and is effective in low temperatures and in fast washing programs. We produce Via in a factory that uses 100% renewable energy and our bottles are made from recycled plastic."
+   }
+},
+{
+   "pk": 18,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLpfWWFJLJeJML897mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/8435495824596.jpg",
+      "country": "USA",
+      "name": "Detergent Color Powder 700g A +",
+      "price": 2.8,
+      "descriptions": "A+ gives value for more, best quality choice for all color cloths and sweet arroma after washing Have the package or label on hand if you need to seek medical attention. Keep out of reach of children."
+   }
+},
+{
+   "pk": 19,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLpfWWFJLJepBL437mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/8711600402522.jpg",
+      "country": "USA",
+      "name": "Rinse aid Creations Strawberry & lily kiss 750ml Comfort",
+      "price": 0.8,
+      "descriptions": "Comfort Creations Rinse aid Strawberry & Lilykiss 750ml is part of Comfort's exclusive collection of rinse aids with wonderful and intense scents developed by perfume experts that give you 100% more fragrance in every drop *."
+   }
+},
+{
+   "pk": 20,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLkfWWFJLJeJML437mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/8710908186547.jpg",
+      "country": "USA",
+      "name": "Rinse aid Pure 1l Comfort",
+      "price": 0.7,
+      "descriptions": "Rinse aid Pure 1l Comfort 750ml is part of Comfort's exclusive collection of rinse aids with wonderful and intense scents developed by perfume experts that give you 100% more fragrance in every drop *."
+   }
+},
+{
+   "pk": 21,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLmfWWFJLJepML407mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7332531051576.jpg",
+      "country": "Sweden",
+      "name": "Shampoo Normal 250ml Barnängen",
+      "price": 1,
+      "descriptions": "Barnängen Hårvård is a series of mildly caring products for naturally beautiful and healthy hair. The products are dermatologically tested. Barnängen Normal Shampoo is for normal hair. Enriched with provitamin B5 and calcium. Nourishes the hair and gives natural shine. Strengthens the hair from root to tip."
+   }
+},
+{
+   "pk": 22,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLpfWWFJLPeJML437mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/5410076230280.jpg",
+      "country": "USA",
+      "name": "Apple fresh Shampoo 500ml Head & Shoulders",
+      "price": 2.75,
+      "descriptions": "Apple Fresh dandruff shampoo effectively cleanses the hair for a fresh feeling and scent of apples that lasts a long time. The advanced Derma & Pure formula effectively counteracts itchy, oily and dry scalp to stop dandruff before it is even visible."
+   }
+},
+{
+   "pk": 23,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLpfWWFJLJipML437mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/3600520752778.jpg",
+      "country": "France",
+      "name": "Shampoo Nutri-gloss shine For dull hair 250ml Elvital",
+      "price": 2.9,
+      "descriptions": "The longer your hair, the more sensitive it is. Over time, the hair can lose shine and softness. That's why L'Oréal Paris has developed Elvital Nutri-Gloss shine shampoo for long and dull hair. The formula with protein and pearl nourishes the hair and acts as an intense shine booster so that the hair reflects light. Your hair gets a radiant shine and becomes soft like cashmere"
+   }
+},
+{
+   "pk": 24,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLpfHWFJLJeJML437mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/5012254060735.jpg",
+      "country": "France",
+      "name": "Colour vibrance protection Schampo 500ml Tresemmé",
+      "price": 1.5,
+      "descriptions": "The TRESemmé Color Vibrance series maintains beautiful shine in the hair up to 40 washes *. The products are enriched with sunflower oil. For colored hair. * when using shampoo and conditioner in comparison with non-caring shampoo"
+   }
+},
+{
+   "pk": 25,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLpfWNFJLJepML437mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/8718114561660.jpg",
+      "country": "UK",
+      "name": "Daily moisture Schampo 250ml Dove",
+      "price": 2.2,
+      "descriptions": "Dove Daily Care Shampoo normally protects hair from daily wear and external influences, the hair becomes noticeably healthy and beautiful. Dove's advanced technology for care for damage and repair: MICRO MOISTURE SERUM protects the hair against daily attacks without weighing it down."
+   }
+},
+{
+   "pk": 26,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLpfWWJJLJeJML477mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7310614377058.jpg",
+      "country": "USA",
+      "name": "Shower cream So Soft 500ml Family Fresh",
+      "price": 2,
+      "descriptions": "Silky shower cream with a mild scent of the summer meadow's most beautiful flowers. Soft, caring foam with silk extract makes the morning shower a luxurious start to the day."
+   }
+},
+{
+   "pk": 27,
+   "model": "products.product",
+   "fields": {
+      "category": "Soap & Lotions",
+      "id": "SLpfWWFPXJepML437mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/3600522870548.jpg",
+      "country": "France",
+      "name": "Shampoo Anti-breakage Dry & worn hair 250ml Elvital",
+      "price": 2.5,
+      "descriptions": "Elvital Anti-Breakage repairing shampoo is specially developed for dry and worn hair. The shampoo contains cement-ceramide which imitates the hair's own cement and targets the damaged areas to * rebuild and repair the hair * repair and strengthen the hair surface."
+   }
+},
+{
+   "pk": 28,
+   "model": "products.product",
+   "fields": {
+      "category": "offers",
+      "id": "OFpfWWFJLJeJML001mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690096603.jpg",
+      "country": "Sweden",
+      "name": "Roses 10-p 40 cm Fairtrade red ICA",
+      "price": 3,
+      "descriptions": "10 pcs 40 cm long quality roses in the color of love red. The ICA roses are Fairtrade certified for extra care."
+   }
+},
+{
+   "pk": 29,
+   "model": "products.product",
+   "fields": {
+      "category": "offers",
+      "id": "OFpfWWFJLJepML002mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690058427.jpg",
+      "country": "Sweden",
+      "name": "Spinach in large pack Rinse 200g ICA",
+      "price": 2,
+      "descriptions": "Spinach large pack with crispy leaves and mild, nutty taste. Suitable as they are in a salad, sautéed with butter and garlic for pasta, a wok or an omelette."
+   }
+},
+{
+   "pk": 30,
+   "model": "products.product",
+   "fields": {
+      "category": "offers",
+      "id": "OFpfWWFJLJeJML003mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7310401014081.jpg",
+      "country": "Sweden",
+      "name": "Rosécider Raspberries & Blackcurrants Non-alcoholic 33cl Briska",
+      "price": 0.7,
+      "descriptions": "A modern cider with a passion for classic cider craftsmanship. Aroma: Clear aroma of black currants and raspberries. Taste: Apple cider with a taste of Raspberry & Currant. Black currants and raspberries in combination give a fresh and fruity taste that conveys a feeling of hot summer day. There is a certain roughness in the aftertaste."
+   }
+},
+{
+   "pk": 31,
+   "model": "products.product",
+   "fields": {
+      "category": "offers",
+      "id": "OFpfWWFJLJepML007mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690141761.jpg",
+      "country": "Sweden",
+      "name": "Sweet potato strips Frozen 500g ICA",
+      "price": 0.5,
+      "descriptions": "ICA Sweet Potato Strips are nice orange french fries strips with a slightly sweet and mild taste, compared to regular french fries. They are suitable for most things but enhance the taste a little extra in a good piece of fish or a piece of pork. We have already fried them in sunflower oil - you cook them quickly and easily in the oven at home."
+   }
+},
+{
+   "pk": 32,
+   "model": "products.product",
+   "fields": {
+      "category": "offers",
+      "id": "OFpfWWFJLJeJML047mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690179610.jpg",
+      "country": "Sweden",
+      "name": "Chicken breast fillet 720g ICA Gott Liv",
+      "price": 3.2,
+      "descriptions": "Chicken fillet of breasts. * * Born, bred and slaughtered in Sweden. Nutritional value per 100g Energy (kcal) 105.0000 kcal, Energy (kJ) 437.0000 kJ, Fat 1.200g, Of which saturated fat 0.3800g, Carbohydrates 0.5000g, Of which sugar 0.1000g, Protein 23.1000 g, Salt 0.1600 g"
+   }
+},
+{
+   "pk": 33,
+   "model": "products.product",
+   "fields": {
+      "category": "offers",
+      "id": "OFpfWWFJLJepML045mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7310960039839.jpg",
+      "country": "Sweden",
+      "name": "Burger Delifresh Plant Beef 4-p 90g Max",
+      "price": 3.8,
+      "descriptions": "WHEAT and SOY PROTEIN (water, textured WHEAT GLUTEN and SOY PROTEIN), coconut fat, water, rapeseed oil, emulsifier E461, pea starch, dried vegetables (onion, garlic), dried apple, yeast extract, salt, spices, black pepper, black pepper, black pepper bamboo fiber, beetroot concentrate, natural aroma, caramelized sugar, lemon juice"
+   }
+},
+{
+   "pk": 34,
+   "model": "products.product",
+   "fields": {
+      "category": "offers",
+      "id": "OFpfWWFJLJeJML467mXJ",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/7318690077381.jpg",
+      "country": "Spain",
+      "name": "Asparagus broccoli Bellaverde 200g Class 1 ICA",
+      "price": 0.9,
+      "descriptions": "Also called asparagus broccoli. The taste is sweet. You eat both the bouquet and the stems. Boil them as an accompaniment, or add to wok, stews and soups"
+   }
+},
+{
+   "pk": 36,
+   "model": "products.product",
+   "fields": {
+      "category": "groceries",
+      "id": "RCpfWWFJLJepML437mXk",
+      "imageURLs": "https://assets.icanet.se/t_product_large_2x_v1,f_auto/5410673709844.jpg",
+      "country": "USA",
+      "name": "Basmati Rice 1kg Uncle Bens",
+      "price": 3.45,
+      "descriptions": "Uncle Ben's Basmatiris is 100% durable and is grown in India, at the foot of the Himalayas, before being stored for six months to refine the naturally aromatic aroma and taste. When it is cooked, the special nutty aroma that characterizes the variety emerges. Boil it for just 10 minutes and you have the tastiest rice you can think of."
+   }
+}
+]

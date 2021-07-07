@@ -10,11 +10,12 @@ class ProductAdmin(admin.ModelAdmin):
         'category',
         'name',
         'country',
-        'weight',
         'price',
         'image',
         'in_stock',
     )
+
+    exclude = ('id',)
 
     ordering = ('id',)
 
