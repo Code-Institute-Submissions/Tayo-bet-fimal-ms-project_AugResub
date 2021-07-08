@@ -5,45 +5,26 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                <a href="{% url 'products' %}" class="dropdown-item ">All products</a>
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=category&direction=desc" class="dropdown-item ">Category</a>
-                <a href="{% url 'products' %}?sort=country&direction=asc" class="dropdown-item ">Country</a>
             </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=groceries">
                 Groceries
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="Groceries">
-                <a href="{% url 'products' %}?category=General Food,Essentials" class="dropdown-item">General Food &amp; Essentials</a>
-                <a href="{% url 'products' %}?category=Fruits" class="dropdown-item">Fruits</a>
-                <a href="{% url 'products' %}?category=Vegetables" class="dropdown-item">Vegetables</a>
-                <a href="{% url 'products' %}?category=Grains,Staples" class="dropdown-item">Grains &amp; staples</a>
-                {% if request.user.is_authenticated %}
-                   <a href="" class="dropdown-item">Delivery Service</a>
-                {% endif %}   
-            </div>
         </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Soaps &amp; Lotions
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'products' %}?category=new arrivals" >
+                New arrivals
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="Soaps & Detergents">
-                <a href="{% url 'products' %}?category=Bathing Lotions" class="dropdown-item">Bathing Lotions </a>
-                <a href="{% url 'products' %}?category=Cleaning,Disinfectants" class="dropdown-item">Cleaning &amp; Disinfectants</a>
-                <a href="{% url 'products' %}?category=Special Detergents" class="dropdown-item">Special Detergents</a>
-            </div>
         </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=offers">
+               Special Offers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">            
-                <a href="{% url 'products' %}?category=Special Offers" class="dropdown-item">Special Deals</a>
-            </div>
         </li>
     </ul>
 </div>
