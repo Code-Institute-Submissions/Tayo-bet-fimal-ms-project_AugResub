@@ -41,8 +41,9 @@
                                     </td>
                                     {% endif %}                                
                                     <td class="py-3">    
-                                        <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                                        <p class="my-0 small text-muted"> {% if item.product.in_stock %}{{ item.product.id|upper }}{% else %}N/A{% endif %}</p>
+                                        <p class="my-0"><strong>{{ item.product.name|upper }}</strong></p>
+                                        <p class="my-0 small text-muted"> {% if item.product.in_stock %}{{ item.product.id }}{% else %}N/A{% endif %}</p>                                       
+                                        <p class="my-0"><strong>{{ item.product.descriptions }}</strong></p>
                                     </td>
                                     <td class="py-3">
                                         <p class="my-0">${{ item.product.price }}</p>
