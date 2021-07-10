@@ -36,6 +36,7 @@ def all_products(request):
             Categories = request.GET['category']
             products = products.filter(category=Categories)
             
+            
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -51,6 +52,7 @@ def all_products(request):
         'products': products,
         'search_term': query,
         'store_categories': Category,
+        'current_sorting': current_sorting,
 
     }
 
