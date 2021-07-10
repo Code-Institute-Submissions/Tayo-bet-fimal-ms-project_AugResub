@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load cart_tools %}
 
 {% block page_header %}
     <div class="container header-container">
@@ -50,7 +51,7 @@
                                     </td>
                                     <td class="py-3 w-25">
                                         <td class="py-3 w-25">
-                                            <form class="form update-form" method="POST" action="">
+                                            <form class="form update-form" method="POST" action="{% url 'adjust_cart' item.item_id %}">
                                                 {% csrf_token %}
                                                 <div class="form-group">
                                                     <div class="input-group">
@@ -144,7 +145,7 @@
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         var inStock = $(this).data('in_stock');
-        var url = `/cart/remove/${itemId}`;
+        var url = `/cart/remove/${itemId}/`;
         var data = {'csrfmiddlewaretoken': csrfToken, 'in_stock': inStock };
 
         $.post(url, data)
