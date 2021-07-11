@@ -46,9 +46,6 @@
                                         <p class="my-0 small text-muted"> {% if item.product.in_stock %}{{ item.product.id }}{% else %}N/A{% endif %}</p>                                       
                                         <p class="my-0"><strong>{{ item.product.descriptions }}</strong></p>
                                     </td>
-                                    <td class="py-3">
-                                        <p class="my-0">${{ item.product.price }}</p>
-                                    </td>
                                     <td class="py-3 w-25">
                                         <td class="py-3 w-25">
                                             <form class="form update-form" method="POST" action="{% url 'adjust_cart' item.item_id %}">
@@ -81,7 +78,9 @@
                                             <a class="update-link text-info float-right"><small>Update</small></a>
                                             <a class="remove-item text-danger float-left " id="remove_{{ item.item_id }}" data-inStock="{{ item.in_stock }}"><small>Remove</small></a>
                                         </td>
-               
+                                        <td class="py-3">
+                                            <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                                        </td>
                                    </tr>
                             {% endfor %}
                                 <tr>
