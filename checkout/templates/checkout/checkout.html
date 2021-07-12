@@ -39,7 +39,7 @@
                 {% for item in cart_items %}
                     <div class="row">
                         <div class="col-2 mb-1">
-                            <a href="{% url 'product_detail' product.id %}">
+                            <a href="{% url 'product_detail' item.product.id %}">
                                 {% if item.product.imageURLs %}
                                     <img class="w-100" src="{{ product.imageURLs }}" alt="{{ product.name }}">
                                 {% else %}
