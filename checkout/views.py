@@ -27,6 +27,7 @@ def cache_checkout_data(request):
             processed right now. Please try again later.')
         return HttpResponse(content=e, status=400)
 
+
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
@@ -59,18 +60,17 @@ def checkout(request):
                         )
                         order_line_item.save()
                     else:
-                        for inStock, quantity in item_data['items_in_stock'].items():
+                        for product in item_data.items():
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
-                                quantity=quantity,
                             )
-                            order_line_item.save()
-                except Product.DoesNotExist:
+                            order_line_item.save()                      
+                except Product.in_stock:
                     messages.error(request, (
-                        "Sorry the product is out of Stock. "
+                        "One of the products in your cart wasn't found in our database. "
                         "Please call us for assistance!")
-                    )
+                          )
                     order.delete()
                     return redirect(reverse('view_cart'))
 
@@ -82,7 +82,7 @@ def checkout(request):
     else:
         cart = request.session.get('cart', {})
         if not cart:
-            messages.error(request, "There's nothing in your cart at the moment")
+            messages.error(request, "There's nothing in your bag at the moment")
             return redirect(reverse('products'))
 
         current_cart = cart_contents(request)
