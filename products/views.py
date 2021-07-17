@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
-from django.auth.decorators import login_required
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
@@ -96,7 +96,7 @@ def add_product(request):
     }
 
     return render(request, template, context)
-    
+
 
 @login_required
 def edit_product(request, product_id):
