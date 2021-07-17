@@ -67,7 +67,7 @@ def product_detail(request, product_id):
         'product': product,
     }
 
-    return render(request, 'products/product_detail.html', context)
+    return render(request, 'products/products_detail.html', context)
 
 
 @login_required
@@ -105,7 +105,7 @@ def edit_product(request, product_id):
         messages.error(request, 'Sorry, You are on the wrong Page: Admin Only')
         return redirect(reverse('home'))
 
-    product = get_object_or_404(Product, pk=product_id)
+    product = get_object_or_404(Product, id=product_id)
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES, instance=product)
         if form.is_valid():
