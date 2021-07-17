@@ -1,13 +1,7 @@
 from django.db import models
 from django.utils.crypto import get_random_string
 
-# CATEGORY (groceries, 4) - 1
-# CATEGORY (groceries2, 5) - 2
 
-# Product (category - groceries) - 1
-# Product (category - groceries) - 2
-
-# Create your models here.
 class Category(models.Model):
     CATEGORY_CHOICES = (
         ('groceries', 'Groceries'),
