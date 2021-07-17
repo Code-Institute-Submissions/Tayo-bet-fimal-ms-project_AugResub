@@ -113,4 +113,3 @@ def edit_product(request, product_id):
     }
 
     return render(request, template, context)
-    
