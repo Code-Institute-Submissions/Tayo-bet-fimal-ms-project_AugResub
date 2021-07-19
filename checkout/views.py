@@ -8,6 +8,7 @@ from .models import Order, OrderLineItem
 from products.models import Product
 from profiles.forms import UserProfileForm
 from profiles.models import UserProfile
+from django.contrib.auth.decorators import login_required
 from cart.contexts import cart_contents
 
 import stripe
@@ -176,3 +177,12 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
+
+@login_required
+def cancel_order(request, order_id):
+    """ Delete a cancel order from the profile """
+
+    Order = get_object_or_404(Product, pk=Order_id)
+    Order.delete()
+    messages.success(request, 'Order deleted!')
+    return redirect(reverse('products'))
