@@ -3,9 +3,8 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
-
 from .models import Product, Category
-from .forms import ProductForm
+from .forms import ProductForm, ReturnProduct
 
 
 def all_products(request):
@@ -138,3 +137,28 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+    
+
+@login_required
+def return_product(request, product_id):
+    """Product Return"""
+
+    if request.method == 'POST':
+        form = ReturnProduct(request.POST, request.FILES)
+        if form.is_valid():
+            product = form.save()
+            messages.success(request, 'Your Product Return Notice has been recieved, Please Package product appropriately when Posting back to Us!')
+            return redirect(reverse('product_detail', args=[product.id]))
+        else:
+            messages.error(request,
+                           ('Failed to add product. '
+                            'Please ensure the form is valid.'))
+    else:
+        form = ReturnProduct()
+
+    template = 'products/products_return.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)

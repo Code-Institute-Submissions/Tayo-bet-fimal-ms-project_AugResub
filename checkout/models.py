@@ -81,3 +81,22 @@ class OrderLineItem(models.Model):
 
     def __str__(self):
         return f'Description {self.product.descriptions} on order {self.order.order_number}'
+
+
+class delete_order(models.Model):
+    default_user = models.OneToOneField(User, on_delete=models.CASCADE)
+    default_order_number = models.CharField(max_length=32, null=False, editable=False)
+    default_user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
+                                     null=True, blank=True, related_name='orders')
+    default_full_name = models.CharField(max_length=50, null=False, blank=False)
+    default_email = models.EmailField(max_length=254, null=False, blank=False)
+    default_phone_number = models.CharField(max_length=20, null=False, blank=False)
+    cancel_reason = models.TextField(max_length=500)
+    return_date = models.DateField(default=timezone.now)
+    stripe_pid = models.CharField(max_length=254, null=False, blank=False, default='')
+
+    def __str__(self):
+        return self.name
+    
+
+    

@@ -1,5 +1,10 @@
+from datetime import datetime
+from django.contrib.auth.models import User
+from django_countries.fields import CountryField
+
 from django.db import models
 from django.utils.crypto import get_random_string
+from django.utils import timezone
 
 
 class Category(models.Model):
@@ -42,5 +47,21 @@ class Product(models.Model):
         if not self.id:
             self.id = get_random_string(20)
         super().save()
-            
 
+
+class Return_Product(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    product_name = models.CharField(max_length=254)
+    return_reason = models.TextField(max_length=500)
+    default_phone_number = models.CharField(max_length=20, null=True, blank=True)
+    default_street_address1 = models.CharField(max_length=80, null=True, blank=True)
+    default_street_address2 = models.CharField(max_length=80, null=True, blank=True)
+    default_postcode = models.CharField(max_length=20, null=True, blank=True)
+    default_town_or_city = models.CharField(max_length=40, null=True, blank=True)
+    default_county = models.CharField(max_length=80, null=True, blank=True)
+    default_country = CountryField(blank_label='Country *', null=True, blank=True)
+    return_date = models.DateField(default=timezone.now)
+
+    def __str__(self):
+        return self.name
+    
