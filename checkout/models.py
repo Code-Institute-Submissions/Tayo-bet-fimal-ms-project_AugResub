@@ -96,6 +96,4 @@ class cancel_checkout_order(models.Model):
 
     def __str__(self):
         return self.name
-    
-
-    
+     

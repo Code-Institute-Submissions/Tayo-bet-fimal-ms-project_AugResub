@@ -140,18 +140,19 @@ def delete_product(request, product_id):
     
 
 @login_required
-def return_product(request, product_id):
+def return_product(request):
     """Product Return"""
 
     if request.method == 'POST':
         form = ReturnProduct(request.POST, request.FILES)
         if form.is_valid():
-            product = form.save()
+            form.instance.user = request.user
+            return_product = form.save()
             messages.success(request, 'Your Product Return Notice has been received, Please Package product appropriately when Posting back to Us!')
-            return redirect(reverse('product_detail', args=[product.id]))
+            return redirect(reverse('products'))
         else:
             messages.error(request,
-                           ('Failed to add product. '
+                           ('Error in Form. '
                             'Please ensure the form is valid.'))
     else:
         form = ReturnProduct()

@@ -1,6 +1,6 @@
 from django import forms
 from .widgets import CustomClearableFileInput
-from .models import Product, Category, Return_Product
+from .models import Product, Category, ReturnProduct
 
 
 class ProductForm(forms.ModelForm):
@@ -25,5 +25,5 @@ class ProductForm(forms.ModelForm):
 class ReturnProduct(forms.ModelForm):
 
     class Meta:
-        model = Return_Product
-        fields = '__all__'
+        model = ReturnProduct
+        exclude = ('user',)
