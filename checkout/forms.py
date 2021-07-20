@@ -37,10 +37,3 @@ class OrderForm(forms.ModelForm):
                 self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].widget.attrs['class'] = 'stripe-style-input'
             self.fields[field].label = False
-
-
-class CancelCheckoutOrder(forms.ModelForm):
-
-    class Meta:
-        model = cancel_checkout_order
-        fields = '__all__'

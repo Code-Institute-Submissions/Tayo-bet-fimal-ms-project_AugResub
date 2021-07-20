@@ -6,16 +6,11 @@ body {
     background: url('/media/baseheroimage.jpg') no-repeat center center fixed;
      background-size: 100%;
   height: calc(100vh -164px);
-    color: #555;
+    color: #52224b;
     font-family: 'Lato';
 }
 
-/*  Footer styling  */
 
-.footer,
-.page-footer {
-    background: #17a2b8;
-}
 
 /* from Bulma */
 .icon {
