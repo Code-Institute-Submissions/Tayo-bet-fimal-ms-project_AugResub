@@ -1,5 +1,5 @@
 from django import forms
-from .models import Order, cancel_order
+from .models import Order, cancel_checkout_order
 
 
 class OrderForm(forms.ModelForm):
@@ -39,8 +39,8 @@ class OrderForm(forms.ModelForm):
             self.fields[field].label = False
 
 
-class CancelOrder(forms.ModelForm):
+class CancelCheckoutOrder(forms.ModelForm):
 
     class Meta:
-        model = cancel_order
+        model = cancel_checkout_order
         fields = '__all__'

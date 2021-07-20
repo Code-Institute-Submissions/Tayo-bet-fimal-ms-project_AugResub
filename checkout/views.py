@@ -179,7 +179,7 @@ def checkout_success(request, order_number):
     return render(request, template, context)
 
 @login_required
-def cancel_order(request, order_id):
+def cancel_checkout_order(request, order_id):
     """ Delete a cancel order from the profile """
 
     Order = get_object_or_404(Product, pk=Order_id)

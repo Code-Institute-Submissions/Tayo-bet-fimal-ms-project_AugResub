@@ -84,7 +84,7 @@ class OrderLineItem(models.Model):
         return f'Description {self.product.descriptions} on order {self.order.order_number}'
 
 
-class cancel_order(models.Model):
+class cancel_checkout_order(models.Model):
     default_user = models.OneToOneField(User, on_delete=models.CASCADE)
     default_order_number = models.CharField(max_length=32, null=False, editable=False)
     default_full_name = models.CharField(max_length=50, null=False, blank=False)
