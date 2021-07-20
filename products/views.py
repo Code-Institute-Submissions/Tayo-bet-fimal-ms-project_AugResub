@@ -147,7 +147,7 @@ def return_product(request, product_id):
         form = ReturnProduct(request.POST, request.FILES)
         if form.is_valid():
             product = form.save()
-            messages.success(request, 'Your Product Return Notice has been recieved, Please Package product appropriately when Posting back to Us!')
+            messages.success(request, 'Your Product Return Notice has been received, Please Package product appropriately when Posting back to Us!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
             messages.error(request,
