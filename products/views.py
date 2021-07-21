@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 from .models import Product, Category
-from .forms import ProductForm, ReturnProduct
+from .forms import ProductForm, ReturnProduct, ProductFeedbackForm
 
 
 def all_products(request):
@@ -158,6 +158,30 @@ def return_product(request):
         form = ReturnProduct()
 
     template = 'products/products_return.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
+
+
+def product_feedback(request):
+    """ Feedback Review"""
+
+    if request.method == 'POST':
+        form = ProductFeedbackForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.instance.user = request.user
+            product_feedback = form.save()
+            messages.success(request, 'Thank you for your Feedback/Complaint, We would get back to you with a response with 48 hours!')
+            return redirect(reverse('products'))
+        else:
+            messages.error(request, ('Error in Form. '
+             'Please ensure the form is valid.'))
+    else:
+        form = ProductFeedbackForm()
+
+    template = 'products/feedback.html'
     context = {
         'form': form,
     }

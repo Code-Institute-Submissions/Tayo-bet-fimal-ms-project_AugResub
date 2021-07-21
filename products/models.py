@@ -65,4 +65,16 @@ class ReturnProduct(models.Model):
 
     def __str__(self):
         return self.name
-    
+
+
+class ProductFeedback(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    name = models.CharField(max_length=254)
+    email = models.CharField(max_length=254, null=True, blank=True)
+    topic = models.CharField(max_length=254, null=True, blank=True)
+    detail = models.CharField(max_length=254, null=True, blank=True)
+    feedback_date = models.DateField(default=timezone.now)
+
+    def __str__(self):
+        return self.name
+
