@@ -38,7 +38,7 @@ class ReturnProductAdmin(admin.ModelAdmin):
 class ProductFeedbackAdmin(admin.ModelAdmin):
     list_display = (
             'name',
-            'topic',
+            'subject',
             'detail',   
         )
 
