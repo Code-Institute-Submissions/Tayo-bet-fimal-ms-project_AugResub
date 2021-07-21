@@ -12,6 +12,7 @@ from profiles.models import UserProfile
 from django.utils import timezone
 
 
+#  Order Model.
 class Order(models.Model):
     order_number = models.CharField(max_length=32, null=False, editable=False)
     user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
@@ -83,17 +84,3 @@ class OrderLineItem(models.Model):
     def __str__(self):
         return f'Description {self.product.descriptions} on order {self.order.order_number}'
 
-
-class cancel_checkout_order(models.Model):
-    default_user = models.OneToOneField(User, on_delete=models.CASCADE)
-    order_number = models.CharField(max_length=32, null=False, editable=False)
-    full_name = models.CharField(max_length=50, null=False, blank=False)
-    email = models.EmailField(max_length=254, null=False, blank=False)
-    phone_number = models.CharField(max_length=20, null=False, blank=False)
-    cancel_reason = models.TextField(max_length=500)
-    return_date = models.DateField(default=timezone.now)
-    stripe_pid = models.CharField(max_length=254, null=False, blank=False, default='')
-
-    def __str__(self):
-        return self.name
-     

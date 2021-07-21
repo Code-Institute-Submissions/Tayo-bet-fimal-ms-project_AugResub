@@ -6,7 +6,7 @@ from django.db import models
 from django.utils.crypto import get_random_string
 from django.utils import timezone
 
-
+#  Product Category Model.
 class Category(models.Model):
     CATEGORY_CHOICES = (
         ('groceries', 'Groceries'),
@@ -28,7 +28,7 @@ class Category(models.Model):
     def get_friendly_name(self):
         return self.friendly_name
 
-
+# Product Model.
 class Product(models.Model):
     category = models.ForeignKey('Category', to_field='name', null=True, blank=True, on_delete=models.SET_NULL)
     id = models.CharField(max_length=254, blank=True, primary_key=True)
@@ -48,7 +48,7 @@ class Product(models.Model):
             self.id = get_random_string(20)
         super().save()
 
-
+#Return Product Model.
 class ReturnProduct(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=254)
@@ -66,7 +66,7 @@ class ReturnProduct(models.Model):
     def __str__(self):
         return self.name
 
-
+# Feedback and Complaints Model.
 class ProductFeedback(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=254)
