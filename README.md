@@ -68,7 +68,7 @@ John is Registered customer with Dandu Stores, who made some order online at Dan
 
 <img src="static/img/productstab.png">
 
-<img src="static/img/productsmob.png">
+<img src="static/img/productsmobile.png">
 
 * Navbar: All the pages have a functional navbar, brand name and links to access products with relevant information. All the different sections e.g profile, checkout have functional navigation links.
 
@@ -94,7 +94,7 @@ John is Registered customer with Dandu Stores, who made some order online at Dan
 
 ## Information **Architecture**
 
-<img src="static/img/productmodel.png">
+<img src="static/img/Productmodel.png">
 
 ## **Technology Used**
 
