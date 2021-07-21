@@ -1,4 +1,4 @@
-<img src="static/img/landingpage.png>
+<img src="static/img/landingpage.png">
 
 ### **Dandu Stores**
 
@@ -45,30 +45,30 @@ John is Registered customer with Dandu Stores, who made some order online at Dan
 * Geneva
 * Lato
 
-#### Colour
+#### **Colour**
 
-<img src="static/img/colorpick.png>
+<img src="static/img/colorpick.png">
 
 #### **Wireframes**
 
 #### Wireframe: Desktop
-<img src="static/img/wireframedesk.png>
+<img src="static/img/wireframedesk.png">
 
 #### Wireframe: Tablet
-<img src="static/img/wireframetab.png>
+<img src="static/img/wireframetab.png">
 
 #### Wireframe: Mobile
-<img src="static/img/wireframemob.png>
+<img src="static/img/wireframemob.png">
 
 ## **Features**
 
 #### Existing Features
 
-<img src="static/img/productsmain.png>
+<img src="static/img/productsmain.png">
 
-<img src="static/img/productstab.png>
+<img src="static/img/productstab.png">
 
-<img src="static/img/productsmob.png>
+<img src="static/img/productsmob.png">
 
 * Navbar: All the pages have a functional navbar, brand name and links to access products with relevant information. All the different sections e.g profile, checkout have functional navigation links.
 
@@ -94,7 +94,7 @@ John is Registered customer with Dandu Stores, who made some order online at Dan
 
 ## Information **Architecture**
 
-<img src="static/img/productmodel.png>
+<img src="static/img/productmodel.png">
 
 ## **Technology Used**
 
@@ -188,11 +188,11 @@ All the images used in this project including the landing page were source from 
 
 Dandu Stores inspired and modelled after Boutique Ado Project from Code Institute, Othere Ideas and functionalities were also inspired from IcaSverige AB web platfrom and the following videos were very instrumental:
 
-* (https://www.youtube.com/watch?v=UpssHYl6bjA).
+* https://www.youtube.com/watch?v=UpssHYl6bjA
 
-* (https://www.youtube.com/watch?v=VOddmV4Xl1g).
+* https://www.youtube.com/watch?v=VOddmV4Xl1g
 
-* (https://www.youtube.com/watch?v=NB6WFVDt7Sg).
+* https://www.youtube.com/watch?v=NB6WFVDt7Sg
 
 ### Special Thanks
 Special thanks to my mentor Dick Vaandlaren for his immense guidance, help and support through this programmea lways going out of his way to mentor me patiently. A big thank you to Code Institute studentcare for always helping out even in difficult situations and big shout out to the tutors especially Fatima.
