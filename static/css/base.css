@@ -11,6 +11,13 @@ body {
 }
 
 
+#footer-block-content{
+    min-height: 95vh;
+}
+
+
+
+
 
 /* from Bulma */
 .icon {
