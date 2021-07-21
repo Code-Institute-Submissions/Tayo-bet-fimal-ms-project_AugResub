@@ -1,1 +1,1 @@
-web: gunicorn dandu-stores.wsgi:application
+web: gunicorn dandu_stores.wsgi:application
