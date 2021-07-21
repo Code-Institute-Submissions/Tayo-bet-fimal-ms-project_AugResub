@@ -3,16 +3,15 @@ html {
 }
 
 body {
-    background: url('/media/baseheroimage.jpg') no-repeat center center fixed;
-     background-size: 100%;
-  height: calc(100vh -164px);
-    color: #52224b;
+    background: url('https://assets.icanet.se/t_epi6imagevault,f_auto/imagevaultfiles/id_230435/cf_259/somriga-frukostar-2-1900x480.jpg?') no-repeat center center fixed;
+    background-size: 100%;
+    height: calc(100vh -164px);
+    color: #1c741c;
     font-family: 'Lato';
 }
 
-
 #footer-block-content{
-    min-height: 95vh;
+    min-height: 55vh;
 }
 
 
@@ -37,26 +36,26 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #78b94d;
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: #78b94d;
     color: white;
 }
 
 .btn-outline-black {
-    background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    background: blanchedalmond;
+    color: #32362f !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: #78b94d;
     color: white !important;
 }
 
@@ -66,20 +65,20 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: rgb(48, 39, 39);
     color: white;
 }
 
 .text-black {
-    color: #000 !important;
+    color: #78b94d !important;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid #71756e !important;
 }
 
 .bg-black {
-    background: #000 !important;
+    background: #71756e !important;
 }
 
 .overlay {
@@ -133,16 +132,7 @@ input[name='q']::placeholder {
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
-.arrow-up {
-    width: 0; 
-    height: 0; 
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
-    border-bottom: 10px solid black;
-    position: absolute;
-    top: -10px;
-    right: 36px;
-}
+
 
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
