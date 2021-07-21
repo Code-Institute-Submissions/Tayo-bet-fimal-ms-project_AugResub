@@ -124,9 +124,9 @@ John is Registered customer with Dandu Stores, who made some order online at Dan
 *	Python
 
 ### **Database**
-•	PostgreSQL
-•	Sqlite#
-•	AWS S3
+*	PostgreSQL
+*	Sqlite
+*	AWS S3
 
 ## **Test**
 
