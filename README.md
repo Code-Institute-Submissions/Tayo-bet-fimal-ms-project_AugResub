@@ -94,7 +94,7 @@ John is Registered customer with Dandu Stores, who made some order online at Dan
 
 ## Information **Architecture**
 
-<img src="static/img/Productmodel.png">
+<img src="static/img/Productmodel.jpg">
 
 ## **Technology Used**
 
