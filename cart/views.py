@@ -55,7 +55,7 @@ def adjust_cart(request, item_id):
             cart.pop(item_id)
             messages.success(request, f'Remove {product.name} from your Cart')
 
-    request.session['bag'] = cart
+    request.session['cart'] = cart
     return redirect(reverse('view_cart'))
 
 
