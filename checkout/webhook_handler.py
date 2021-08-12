@@ -95,7 +95,7 @@ class StripeWH_Handler:
                 )
                 order_exists = True
                 break
-            except Order.in_stock:
+            except Order.DoesNotExist:
                 attempt += 1
                 time.sleep(1)
         if order_exists:
