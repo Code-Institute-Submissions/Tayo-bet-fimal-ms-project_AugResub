@@ -180,6 +180,10 @@ Dandu Stores is deployed on Heroku and the following steps were taken during dep
 *	Ensure all fixtures are loaded with 'python3 manage.py loaddata '
 *	Ensure all models are migrated when created and also after any chenges are made on them.
 
+The Deploy App can be accessed on Heroku with the link Below:
+
+* https://dandu-stores.herokuapp.com/
+
 ### **Limitations**
 
 *	Chat functionality will be very useful to attend to the needs on customers in real time but featured yet on the website.
