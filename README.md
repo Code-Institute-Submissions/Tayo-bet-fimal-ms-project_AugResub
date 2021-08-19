@@ -94,6 +94,12 @@ John is Registered customer with Dandu Stores, who made some order online at Dan
 
 ## Information **Architecture**
 
+### Product Model: All products have a unique identity number, a name and product description to give customers an understanding of the product and the country the product are sourced from. The price for each product, clear and descriptive image and information about if the product is in stock or not when selecting product.
+
+### Product Return Model: To comply with customer satisfaction and right to return a damage product, a product return model was created. Registered customers can log in to their profile page and select to return a product. The product information; id number and name will be filled, the customer details and detailed information about what is the fault or damaged with the product.
+
+### Feedback/Complaint Model: To be successful as a business it is important to get both criticism and good feedback from customers in order to improve as a company. Therefore all registered customers can leave a feedback and/or complain about a product or service with their email, a subject and details about their complaints/feedback. The store would be able to use this informations to reply appropriately.
+
 <img src="static/img/Productmodel.jpg">
 
 ## **Technology Used**
